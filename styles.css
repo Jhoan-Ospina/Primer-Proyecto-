@@ -1,0 +1,98 @@
+h1{
+    color:cornflowerblue;
+    text-align: center;
+    background-color:black;
+    font-size: 40px;
+    font-family: 'Langar', cursive;
+}
+body{
+    background-color:black;
+}
+p{
+    /*color:cornsilk;*/
+    font-size: 35px;
+    font-family:'Chela One', cursive;
+   /* text-align: center;*/
+}
+.menú{
+    display: flex; 
+    justify-content:left;   
+    height: 40px;
+    align-items: center;
+ }
+.menú li{
+    list-style: none; /*Quita los puntos de los elementos de la lista*/
+    margin-left: 40px;
+    margin-right: 40px;
+    display:inline-block;
+    text-align: center;
+}
+.menú li a{
+    color:cornflowerblue;
+    text-decoration: none;
+    font-family: 'Langar', cursive;
+    font-size: 30px;
+}
+.menú li a:hover{
+    background:white;
+    height: 50px;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    font-size: 20px;
+}
+.input_contacto{
+    width: 80%;/*Ancho de un elemento*/
+    border: 3px cornflowerblue solid;/*Permite poner un borde a un elemento HTML:2px: ancho*/
+}
+.div_contacto{
+margin-top: 10px;
+color:cornsilk;
+font-size: 30px;
+font-family:'Chela One', cursive;
+}
+.boton_contacto{
+    text-align: center;
+    margin-top: 10px;
+}
+form{
+    text-align: center;
+    width: 50%;
+    margin-left: 20%;
+}
+.mensaje{
+    text-align: center;
+    margin-top: 10px;
+    color: cornsilk;
+    font-family:'Chela One', cursive;
+    font-size: 30px;
+}
+.padre{
+    display: flex;
+    justify-content:space-between;
+}
+.padre div{
+    width: 60%;
+}
+.personaje{
+    width: 25%;
+    text-align: center;
+    border: white 3px solid;
+    margin: 3%;
+}
+.personaje div{
+    text-align: left;
+}
+.todos_personajes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fondo-morado{
+    background-color:cornflowerblue;
+    height: 100px;
+    margin: 1px;
+}
+.alto-carousel{
+    height: 700px;
+}
