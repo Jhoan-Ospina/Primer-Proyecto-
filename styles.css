@@ -96,3 +96,12 @@ form{
 .alto-carousel{
     height: 700px;
 }
+.buscar input{
+    width: 240px;
+    height: 40px;
+    padding: 0 20px;
+    color: blue;
+}
+.logo{
+    display: flex;
+}
